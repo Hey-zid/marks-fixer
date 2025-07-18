@@ -1,7 +1,7 @@
 with open ("40 of us.txt","r") as lines:
     lines_ = [line.strip().split(",") for line in lines]
 
-the_id=int(input("Please give the student ID  "))
+the_id=int(input("Please give the student ID: "))
 marks=int(input("Updated marks  "))
 
 for i in range(len(lines_)):
